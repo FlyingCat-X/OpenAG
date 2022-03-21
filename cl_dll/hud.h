@@ -112,6 +112,7 @@ struct HUDLIST {
 #include "hud_vote.h"
 #include "hud_watermark.h"
 #include "rainbow.h"
+#include "hud_nametags.h"
 
 
 //
@@ -699,6 +700,7 @@ public:
 	CHudOldScoreboard m_OldScoreBoard;
 
 	CRainbow m_Rainbow;
+	CHudNameTags		m_NameTags;
 
 	void Init( void );
 	void VidInit( void );
