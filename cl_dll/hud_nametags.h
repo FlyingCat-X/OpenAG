@@ -1,4 +1,4 @@
-ifndef NAMETAGS_H
+#ifndef NAMETAGS_H
 #define NAMETAGS_H
 #pragma once
 
