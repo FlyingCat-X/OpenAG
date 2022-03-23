@@ -72,7 +72,7 @@ jobs:
         working-directory: build
         run: ninja
       - uses: actions/upload-artifact@v2
-        if: matrix.gcc-ver == '11'
+        if: matrix.gcc-ver == '6'
         with:
           name: openag-${{ runner.os }}-${{ matrix.configuration }}
           path: build/client.so
